@@ -5,15 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla Javascript Todo App</title>
-    <link href="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body class="container">
+
+    <header class="logo">
+        <a href="http://google.com" target="_blank">
+            <img class="logo" src="images/logo.png" height="100px" width="100px"/>
+        </a>
+        <h2> Vanilla Javascript Todo App </h2>
+    </header>
+
+    <div class="main">
+
+    <form>
+        <input type="text" placeholder="New Task..">
+        <button type="submit"> <i class="fas fa-plus-square"></i> </button>
+    </form>
+
+        <div class="todoList">
+            <ul>
+
+            </ul>
+
+            <a class="clearAll" id="clearAll"> Clear All</a>
+
+        </div>
+   
+
+    </div>
     
-    <h1> Vanilla Javascript Todo App </h1>
+
 
     <script type="text/javascript" src="app.js"></script>
 </body>
